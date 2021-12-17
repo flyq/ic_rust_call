@@ -1,0 +1,12 @@
+{
+    "canisters": {
+      "caller": {
+        "type": "custom",
+        "candid": "caller/caller.did",
+        "wasm": "target/wasm32-unknown-unknown/release/opt.wasm"
+      },
+      "counter": {
+        "main": "counter/main.mo"
+      }
+    }
+}

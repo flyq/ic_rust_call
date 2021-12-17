@@ -1,0 +1,8 @@
+service : () -> {
+  add : (nat) -> (nat);
+  get : (principal) -> (nat);
+  inc : () -> ();
+  msgCaller : () -> (principal);
+  set : (nat) -> ();
+  setCounter : (principal) -> ();
+}
